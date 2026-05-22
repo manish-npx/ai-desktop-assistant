@@ -1,0 +1,30 @@
+{
+  "name": "ai-desktop-assistant",
+  "outputfilename": "ai-desktop-assistant",
+  "debounce": 10,
+  "devserver": "http://localhost:34115",
+  "frontend:devserverurl": "http://localhost:5173",
+  "frontend:dist": "frontend/dist",
+  "frontend:build": "npm run build",
+  "frontend:dev:build": "npm run dev",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverurl": "http://localhost:5173",
+  "author": {
+    "name": "Manish",
+    "email": "manish@example.com"
+  },
+  "info": {
+    "companyname": "AI Desktop Assistant",
+    "productname": "AI Desktop Assistant",
+    "productversion": "0.1.0",
+    "copyright": "Copyright @ 2025",
+    "comments": "Educational AI desktop assistant built with Wails, Go, and React"
+  },
+  "runner": {
+    "filename": "wails"
+  },
+  "assetserver": {
+    "assetsdir": "frontend/dist",
+    "middleware": "gzip"
+  }
+}
